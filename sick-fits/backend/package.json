@@ -11,7 +11,22 @@
   "eslintConfig": {
     "extends": "wesbos/typescript.js",
     "rules": {
-      "@typescript-eslint/no-unsafe-assignment": 0
+      "@typescript-eslint/no-unsafe-assignment": 0,
+      "@typescript-eslint/quotes": [
+        2,
+        "double"
+      ],
+      "quotes": [
+        2,
+        "double"
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": false,
+          "endOfLine": "auto"
+        }
+      ]
     }
   },
   "babel": {
